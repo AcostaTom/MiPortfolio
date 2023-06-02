@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portfolio</title>
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 </head>
 <body>
     <header>
@@ -18,10 +19,10 @@
             <a href="">Portfolio</a>
             <a href="">Contacto</a>
         </nav>
-        <div>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
+        <div class="redes">
+            <a href="https://www.instagram.com/ttomasacosta/" target="_blank"><i class="insta bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com/ttomas.acosta" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://github.com/AcostaTom" target="_blank"><i class="github bi bi-github"></i></a>
         </div>
     </header>
     <main>
@@ -194,7 +195,69 @@
             </div>
             <a class="descargar-cv" href="img/curriculum.pdf" download="curriculum.pdf" target="_blank"><button>Descargar CV</button></a>
         </section>
+        <!-- QUINTA SECCION -->
+        <section>
+            <div class="curriculum">
+                <p>Portfolio</p>
+                <h2>Algunos de mis proyectos más recientes</h3>
+            </div>
+            <div>
+                <ul class="categorias">
+                    <li><a class="categ-trab" href="">Todos</a></li>
+                    <li><a class="categ-trab" href="">React</a></li>
+                    <li><a class="categ-trab" href="">Java</a></li>
+                    <li><a class="categ-trab" href="">JavaScript</a></li>
+                </ul>
+            </div>
+            <div class="trabajos-realizados">
+                <div class="caja-imagenes">
+                    <img src="img/funpetzdefinitivo.jpg" alt=""></div>
+                <div class="caja-imagenes">
+                    <img src="img/giftifydefinitivo.jpg" alt=""></div>
+                <div class="caja-imagenes">
+                    <img src="img/golfdefinitivo.jpg" alt=""></div>
+                <div class="caja-imagenes">
+                    <img src="img/ivyredefinitivo.jpg" alt=""></div>
+                <div class="caja-imagenes">
+                    <img src="img/personaltrainerdefinitivo.jpg" alt=""></div>
+                <div class="caja-imagenes">
+                    <img src="img/larkdefinitivo.jpg" alt=""></div>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="cont-footer">
+            <div class="info-contacto">
+                <h2>Mantengámonos en contacto</h2>
+                <p class="prom-contacto">Disfruto discutir nuevos proyectos y desafíos de diseño. Comparta tanta información como sea posible para que podamos aprovechar al máximo nuestro primer contacto.</p>
+                <h3>Viviendo en:</h3>
+                <p class="localidad">Capital Federal, Buenos Aires, Argentina.</p>
+                <h3>Llamada:</h3>
+                <p class="n-tel">(011)1141433356</p>
+                <ul class="redes-footer">
+                    <li>
+                        <a href="https://www.instagram.com/ttomasacosta/" target="_blank"><i class="insta redes-fot-est bi bi-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/ttomas.acosta" target="_blank"><i class="fb redes-fot-est bi bi-facebook"></i></a>
+                    <li>
+                        <a href="https://github.com/AcostaTom" target="_blank"><i class="github redes-fot-est bi bi-github"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="formulario">
+                <h2>¿Quiere idear su proyecto?</h2>
+                <form action="">
+                    <label for="">Cuál es su nombre:</label>
+                    <input type="text">
+                    <label for="">Su correo electrónico:</label>
+                    <input type="email">
+                    <label for="">¿Le puedo ayudar en algo?</label>
+                    <textarea name="" id="" cols="20" rows="5"></textarea>
+                    <button type="submit">Enviar<span><i class="enviar-footer bi bi-arrow-right-short"></i></span></button>
+                </form>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
