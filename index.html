@@ -9,32 +9,39 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 </head>
 <body>
-    <header>
-        <img src="" alt="">
-        <nav>
-            <a href="">Inicio</a>
-            <a href="">Acerca de</a>
-            <a href="">Servicios</a>
-            <a href="">Resumen</a>
-            <a href="">Portfolio</a>
-            <a href="">Contacto</a>
-        </nav>
-        <div class="redes">
-            <a href="https://www.instagram.com/ttomasacosta/" target="_blank"><i class="insta bi bi-instagram"></i></a>
-            <a href="https://www.facebook.com/ttomas.acosta" target="_blank"><i class="bi bi-facebook"></i></a>
-            <a href="https://github.com/AcostaTom" target="_blank"><i class="github bi bi-github"></i></a>
+    <header id="#Inicio">
+        <div class="contenedor-header">
+            <div class="logo">
+                <div class="hamburguesa">
+                    <i class="bi bi-list"></i>
+                </div>
+                <img src="img/logo.png" alt="acosta">
+            </div>
+            <nav class="menu">
+                <a href="#inicio">Inicio</a>
+                <a href="#about">Acerca de</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#resumen">Resumen</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <div class="redes">
+                <a href="https://www.instagram.com/ttomasacosta/" target="_blank"><i class="insta bi bi-instagram"></i></a>
+                <a href="https://www.facebook.com/ttomas.acosta" target="_blank"><i class="fb bi bi-facebook"></i></a>
+                <a href="https://github.com/AcostaTom" target="_blank"><i class="github bi bi-github"></i></a>
+            </div>
         </div>
     </header>
     <main>
         <!-- PRIMERA SECCION -->
-        <section class="hero">
+        <section id="inicio" class="hero">
             <div class="infohero">
                 <div class="introduccion">
                     <h2>HOLA! SOY WEB DEVELOPER</h2>
                     <h1>ACOSTA</h1>
                     <h3>actualmente en Buenos Aires, Argentina.</h3>
-                    <a href=""><button class="boton-vertrabajos">Ver mis trabajos</button></a>
-                    <a href=""><button class="boton-contactame"><span>Contactame</span><i class="bi bi-arrow-down-circle-fill"></i></button></a>
+                    <a href="#portfolio"><button class="boton-vertrabajos">Ver mis trabajos</button></a>
+                    <a href="#contacto"><button class="boton-contactame"><span>Contactame</span><i class="bi bi-arrow-down-circle-fill"></i></button></a>
                 </div>
                 <div class="imagen">
                     <img class="foto" src="img/perfil.jpg" alt="Tomi">
@@ -42,7 +49,7 @@
             </div>
         </section>
         <!-- SEGUNDA SECCION -->
-        <section class="segundasecc">
+        <section id="about" class="segundasecc">
             <div class="sobremi">
                 <p>Acerca de mí</p>
                 <h2>Conoceme más</h2>
@@ -81,49 +88,50 @@
         </div>
         </section>
         <!-- TERCERA SECCION -->
-        <section class="contenedor-ter-sec">
+        <section id="servicios" class="contenedor-ter-sec">
             <div class="tercera-seccion">
                 <div class="habilidades">
-                    <p>Qué hago?</p>
+                    <p>¿Lo que hago?</p>
                     <h2>Cómo puedo ayudar en tu próximo proyecto</h2>
-            </div>
-            <div class="caja-cuadros">
-                <div class="cuadros">
-                    <i class="bi bi-palette-fill"></i>
-                    <h3>Java Script</h3>
-                    <p>Para lograr una página web dinámica aplico diversas funcionalidades de Js.</p>			
                 </div>
-                <div class="cuadros">
-                    <i class="bi bi-pencil-square"></i>
-                    <h3>Diseño web</h3>
-                    <p>Se ofrece un layout completo para una óptima experiencia de usuario con una estética a la altura.</p>			
+                <div class="caja-cuadros">
+                    <div class="cuadros">
+                        <i class="bi bi-palette-fill"></i>
+                        <h3>Java Script</h3>
+                        <p>Para lograr una página web dinámica aplico diversas funcionalidades de Js.</p>			
+                    </div>
+                    <div class="cuadros">
+                        <i class="bi bi-pencil-square"></i>
+                        <h3>Diseño web</h3>
+                        <p>Se ofrece un layout completo para una óptima experiencia de usuario con una estética a la altura.</p>			
+                    </div>
+                    <div class="cuadros">
+                        <i class="bi bi-pencil-square"></i>
+                        <h3>Desarrollo web</h3>
+                        <p>Mi objetivo es crear y mantener websites teniendo en cuenta los diferentes grados de complejidad</p>			
+                    </div>
+                    <div class="cuadros">
+                        <i class="bi bi-brush"></i>
+                        <h3>Bases de Datos</h3>
+                        <p>Puedo trabajar en la creación y modificación de bases de datos relaciones o no relacionales.</p>			
+                    </div>
+                    <div class="cuadros">
+                        <i class="bi bi-phone-flip"></i>
+                        <h3>Diseños responsive</h3>
+                        <p>Se presenta un diseño adaptable a todas las resoluciones.</p>			
+                    </div>
+                    <div class="cuadros">
+                        <i class="bi bi-check2-square"></i>
+                        <h3>Eficiencia</h3>
+                        <p>En constante búsqueda de mejorar la técnica, organización y resolución de los objetivos; manteniendo actualizados los proyectos previos.</p>			
+                    </div>
                 </div>
-            </div>
-            <div class="cuadros">
-                <i class="bi bi-pencil-square"></i>
-                <h3>Desarrollo web</h3>
-                <p>Mi objetivo es crear y mantener websites teniendo en cuenta los grados de complejidad</p>			
-            </div>
-            <div class="cuadros">
-                <i class="bi bi-brush"></i>
-                <h3>Bases de Datos</h3>
-                <p>Puedo trabajar en bases de datos relaciones o no relacionales tanto modificando datos o creando la misma.</p>			
-            </div>
-            <div class="cuadros">
-                <i class="bi bi-phone-flip"></i>
-                <h3>Diseños responsive</h3>
-                <p>Te presento el diseño de una pagina web para que pueda adaptarse y sea accesible a bajas resoluciones.</p>			
-            </div>
-            <div class="cuadros">
-                <i class="bi bi-check2-square"></i>
-                <h3>Eficiencia</h3>
-                <p>Se respetan los tiempos previamente acordados y se informa un seguimiento del progreso mediante un permanente contacto.</p>			
             </div>
         </section>
         <!-- CUARTA SECCION -->
-        <section>
+        <section id="resumen" class="cuartasecc">
             <div class="curriculum">
-                <p>Reanudar</p>
+                <p>Resumen</p>
                 <h2>Un resumen de mi currículum</h2>
             </div>
             <div class="curriculum-box">
@@ -165,13 +173,13 @@
             </div>
             <div class="cont-habilidades">  
                 <div class="cajas-hab">
-                    <p>Web Design</p><span>70%</span>
-                    <div class="progress-bar">
-                        <div class="bar-web"></div>
-                    </div>
                     <p>HTML/CSS</p><span>95%</span>
                     <div class="progress-bar">
                         <div class="bar-html"></div>
+                    </div>
+                    <p>Web Design</p><span>70%</span>
+                    <div class="progress-bar">
+                        <div class="bar-web"></div>
                     </div>
                     <p>JavaScript</p><span>50%</span>
                     <div class="progress-bar">
@@ -196,10 +204,10 @@
             <a class="descargar-cv" href="img/curriculum.pdf" download="curriculum.pdf" target="_blank"><button>Descargar CV</button></a>
         </section>
         <!-- QUINTA SECCION -->
-        <section>
+        <section id="portfolio" class="quintasecc">
             <div class="curriculum">
                 <p>Portfolio</p>
-                <h2>Algunos de mis proyectos más recientes</h3>
+                <h2>Algunos de mis proyectos más recientes</h2>
             </div>
             <div>
                 <ul class="categorias">
@@ -209,30 +217,74 @@
                     <li><a class="categ-trab" href="">JavaScript</a></li>
                 </ul>
             </div>
-            <div class="trabajos-realizados">
-                <div class="caja-imagenes">
-                    <img src="img/funpetzdefinitivo.jpg" alt=""></div>
-                <div class="caja-imagenes">
-                    <img src="img/giftifydefinitivo.jpg" alt=""></div>
-                <div class="caja-imagenes">
-                    <img src="img/golfdefinitivo.jpg" alt=""></div>
-                <div class="caja-imagenes">
-                    <img src="img/ivyredefinitivo.jpg" alt=""></div>
-                <div class="caja-imagenes">
-                    <img src="img/personaltrainerdefinitivo.jpg" alt=""></div>
-                <div class="caja-imagenes">
-                    <img src="img/larkdefinitivo.jpg" alt=""></div>
+            <div class="contenedor-imagenes">
+                <div class="imagencont">
+                    <img src="img/funpetzdefinitivo.jpg" alt="">
+                </div>
+                <div class="imagencont">
+                    <img src="img/giftifydefinitivo.jpg" alt="">
+                </div>
+                <div class="imagencont">
+                    <img src="img/golfdefinitivo.jpg" alt="">
+                </div>
+                <div class="imagencont">
+                    <img src="img/ivyredefinitivo.jpg" alt="">
+                </div>
+                <div class="imagencont">
+                    <img src="img/larkdefinitivo.jpg" alt="">
+                </div>
+                <div class="imagencont">
+                    <img src="img/personaltrainerdefinitivo.jpg" alt="">
+                </div>
             </div>
+            <!-- <div class="trabajos-realizados">
+                <div class="caja-imagenes">
+                    <img src="img/funpetzdefinitivo.jpg" alt="">
+                    <div class="capa">
+                        <h3>Fun Petz</h3>
+                    </div>
+                </div>
+                <div class="caja-imagenes">
+                    <img src="img/giftifydefinitivo.jpg" alt="">
+                    <div class="capa">
+                        <h3>Giftify</h3>
+                    </div>
+                </div>
+                <div class="caja-imagenes">
+                    <img src="img/golfdefinitivo.jpg" alt="">
+                    <div class="capa">
+                        <h3>Golf Club</h3>
+                    </div>
+                </div>
+                <div class="caja-imagenes">
+                    <img src="img/ivyredefinitivo.jpg" alt="">
+                    <div class="capa">
+                        <h3>Ivyre</h3>
+                    </div>
+                </div>
+                <div class="caja-imagenes">
+                    <img src="img/personaltrainerdefinitivo.jpg" alt="">
+                    <div class="capa">
+                        <h3>Dein Personal Trainer</h3>
+                    </div>
+                </div>
+                <div class="caja-imagenes">
+                    <img src="img/larkdefinitivo.jpg" alt="">
+                    <div class="capa">
+                        <h3>Lark Homes</h3>
+                    </div>
+                </div>
+            </div> -->
         </section>
     </main>
-    <footer>
+    <footer id="contacto">
         <div class="cont-footer">
             <div class="info-contacto">
                 <h2>Mantengámonos en contacto</h2>
                 <p class="prom-contacto">Disfruto discutir nuevos proyectos y desafíos de diseño. Comparta tanta información como sea posible para que podamos aprovechar al máximo nuestro primer contacto.</p>
                 <h3>Viviendo en:</h3>
                 <p class="localidad">Capital Federal, Buenos Aires, Argentina.</p>
-                <h3>Llamada:</h3>
+                <h3>Llamar al:</h3>
                 <p class="n-tel">(011)1141433356</p>
                 <ul class="redes-footer">
                     <li>
@@ -246,7 +298,7 @@
                 </ul>
             </div>
             <div class="formulario">
-                <h2>¿Quiere idear su proyecto?</h2>
+                <h2>¿Quiere idear un proyecto?</h2>
                 <form action="">
                     <label for="">Cuál es su nombre:</label>
                     <input type="text">
@@ -254,7 +306,7 @@
                     <input type="email">
                     <label for="">¿Le puedo ayudar en algo?</label>
                     <textarea name="" id="" cols="20" rows="5"></textarea>
-                    <button type="submit">Enviar<span><i class="enviar-footer bi bi-arrow-right-short"></i></span></button>
+                    <button type="submit" class="botonenviar">Enviar<span><i class="enviar-footer bi bi-arrow-right-short"></i></span></button>
                 </form>
             </div>
         </div>
