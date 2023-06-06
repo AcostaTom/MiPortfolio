@@ -1,6 +1,7 @@
 Bienvenido a mi Portfolio! 💻
 
-Aqui vas a poder encontrar mis proyectos realizados, un breve resumen de mi curriculum, mis habilidades y formas en las que podre ayudarte a realizar una pagina web. Mi portfolio está realizado con:
+Aquí vas a poder encontrar mi proyecto de portfolio basado en el modelo de éste link: https://dribbble.com/shots/20778519-Personal-Website-in-React
+El mismo fue realizado con:
 
 + HTML
 + CSS
