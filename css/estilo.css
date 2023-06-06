@@ -663,7 +663,7 @@ form>textarea{
     color: #000000;
 }
 /* MEDIA QUERIE CELU */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px){
     header{
         width: 100%;
         background-color: #ffffff;
@@ -721,7 +721,7 @@ form>textarea{
         font-size: 1.4rem;
     }
 
-/* primer seccion hero */
+/* primera seccion hero */
     .hero{
         background-color: rgb(245, 223, 78);
         min-height: 100vh;
@@ -745,7 +745,7 @@ form>textarea{
         padding: 0 0.6em;
     }
     .foto{
-        width: 27em;
+        width: min(70% 27em);
         border: 1rem solid #ffffff;
         border-radius: 22.5rem;
         color: #212529;
