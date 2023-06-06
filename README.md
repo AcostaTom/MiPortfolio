@@ -6,4 +6,4 @@ Aqui vas a poder encontrar mis proyectos realizados, un breve resumen de mi curr
 + CSS
 
 Podés verlo haciendo click en el siguiente link! 👇🏽
-`<link>` : https://github.com/AcostaTom/MiPortfolio
+[`<link>` : https://github.com/AcostaTom/MiPortfolio](https://acostatom.github.io/MiPortfolio/)
